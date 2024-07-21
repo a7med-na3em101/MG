@@ -1,0 +1,294 @@
+.to {
+  color: black;
+  font-family: monospace;
+  margin-right: 1rem;
+}
+
+.to:hover {
+  color: rgb(255, 230, 0);
+  font-family: monospace;
+  margin-right: 1rem;
+}
+
+.dd {
+  margin-left: 33rem;
+}
+
+.dd1 {
+  margin-right: 8rem;
+}
+
+@media (max-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: .5rem;
+    padding-left: .5rem;
+    margin-right: 0rem;
+  }
+
+  .dd {
+    margin-left: 0rem;
+  }
+
+  .dd1 {
+    margin-right: 0rem;
+  }
+}
+
+.cd {
+  background-image: url("/assets/photo/mg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.ss {
+  justify-content: center;
+  display: flex;
+  font-family: fantasy;
+  font-size: xx-large;
+  font-weight: bold;
+
+}
+
+.btn {
+  color: #000000;
+  background-color: #f2f239;
+  border-color: #ffea00;
+}
+
+/* ### Home Header Section ### */
+
+.home-header {
+  color: var(--text-color-white);
+  background-color: var(--bg-color-main-dark);
+}
+
+.header-hero {
+  padding: 7.1rem 0;
+}
+
+.hero-text>p {
+  padding-top: 1.33rem;
+}
+
+.hero-img {
+  padding: 1.2rem 0 0 3.33rem;
+}
+
+li.nav-item>.nav-link.active {
+  color: var(--text-color-white);
+}
+
+.nav-link {
+  color: var(--text-color-muted);
+}
+
+li.nav-item>.nav-link:hover {
+  color: var(--text-color-white);
+}
+
+.nav-actions>button.contact-us {
+  background-color: transparent;
+  border: 1px solid var(--color-grey-light);
+  color: var(--text-color-white);
+  padding: 1rem 2.66rem;
+  margin-left: 2.5rem;
+}
+
+.how-we-work {
+  background-color: var(--bg-color-grey);
+}
+
+/* ### How we Work Section ### */
+.soco {
+  margin-bottom: 32px;
+}
+
+.soco1 {
+  margin-left: 8px;
+}
+
+.content {
+  position: relative;
+  overflow: hidden;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(329deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+  padding: 45px 15px;
+  color: #fff;
+  transition: all 0.4s;
+  transform: translateX(-100%);
+}
+
+.content:hover .overlay {
+  transform: translateX(0%);
+}
+
+.wow {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* .wor {
+    color: orange;
+} */
+
+.teex {
+  font-weight: bold;
+  font-size: xxx-large;
+  margin-right: 20%;
+}
+
+.tool {
+  background-color: #1C1E53;
+  color: #fff;
+  text-align: center;
+  font-size: x-large;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+}
+
+.card1 {
+  padding: 30px;
+  background-color: white;
+  margin-right: 2%;
+}
+
+.crd {
+  display: flex;
+  margin-bottom: 13px;
+}
+
+.boody {
+  background-color: #e9edf9;
+}
+
+.test1 {
+  line-height: 39px;
+}
+
+.test2 {
+  line-height: 8px;
+  color: gray;
+}
+
+.ap {
+  line-height: 24px;
+  font-size: xx-large;
+  font-weight: bolder;
+}
+
+.qwe {
+  display: flex;
+}
+
+.asd {
+  line-height: 8px;
+}
+
+.qwq {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cook1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cook {
+  display: flex;
+  font-weight: 700;
+  color: 2405F2;
+  justify-content: space-between;
+
+
+}
+
+.took {
+  font-size: x-large;
+  font-weight: 400;
+  color: black;
+}
+
+.toook {
+  font-weight: 400;
+  color: black;
+}
+
+input {
+  border: 1px solid black;
+  background: none;
+  padding: 8px;
+  width: 55%;
+  color: white;
+}
+
+.deevo {
+  line-height: 45px;
+  margin-bottom: 7%;
+}
+
+.diva {
+  line-height: 10px;
+}
+
+.leo {
+  margin-right: 10px;
+}
+
+.dodo {
+  display: flex;
+  border: 1px dotted #2405F2;
+  width: 60%;
+  border-top-style: none;
+  border-right-style: none;
+  border-left-style: none;
+}
+
+.dada {
+  padding: 30px;
+  background-color: #F4F6FC;
+
+}
+
+.momo {
+  padding: 30px;
+  background-color: #F4F6FC;
+}
+
+.a79 {
+  display: flex;
+  justify-content: center;
+  line-height: 10px;
+}
+
+.kokoo {
+  display: flex;
+  justify-content: center;
+}
+
+.koko {
+  line-height: 10px;
+}
+
+.anc {
+  display: flex;
+  text-decoration: none;
+  color: black;
+}
+
+.anc:hover {
+  color: #2405F2;
+}
+
+.qwqwq {
+  padding: 40px;
+}

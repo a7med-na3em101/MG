@@ -1,0 +1,161 @@
+.to {
+  color: black;
+  font-family: monospace;
+  margin-right: 1rem;
+}
+
+.to:hover {
+  color: rgb(255, 230, 0);
+  font-family: monospace;
+  margin-right: 1rem;
+}
+
+.dd {
+  margin-left: 33rem;
+}
+
+.dd1 {
+  margin-right: 8rem;
+}
+
+.divo {
+  height: 8rem
+}
+
+@media (max-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: .5rem;
+    padding-left: .5rem;
+    margin-right: 0rem;
+  }
+
+  .dd {
+    margin-left: 0rem;
+  }
+
+  .ddd {
+    position: relative;
+    right: 1rem;
+  }
+
+  .dd1 {
+    margin-right: 0rem;
+  }
+
+
+  .vb {
+    position: relative;
+    right: 5rem;
+  }
+
+  .asa {
+    position: relative;
+    right: 4rem;
+    font-size: x-large;
+    padding: 57px;
+  }
+
+  .ani {
+    position: relative;
+    right: 2rem;
+  }
+
+  .ani2 {
+    width: 22rem;
+  }
+
+  .anin {
+    position: relative;
+    right: 2rem;
+  }
+
+  .fff {
+    position: relative;
+    right: 3rem;
+    bottom: 5rem;
+  }
+
+  .ss {
+    font-size: x-large;
+  }
+
+  .divo {
+    height: 0rem
+  }
+}
+
+
+
+
+.cd {
+  background-image: url("/assets/photo/mg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.ss {
+  justify-content: center;
+  display: flex;
+  font-family: fantasy;
+  font-size: xx-large;
+  font-weight: bold;
+
+}
+
+.btn {
+  color: #000000;
+  background-color: #f2f239;
+  border-color: #ffea00;
+}
+
+.animate {
+  width: 30rem;
+  animation: slideIn 2s ease-in-out forwards, shake 1s ease-in-out 2s infinite;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.ani {
+  width: 30rem;
+  animation: slideIn 2s ease-in-out forwards;
+}
+
+.anin {
+  width: 30rem;
+  animation: slideIn 2s ease-in-out forwards;
+}
+
+@keyframes shake {
+
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+
+  25% {
+    transform: translateX(-5px);
+  }
+
+  50% {
+    transform: translateX(5px);
+  }
+
+  75% {
+    transform: translateX(-5px);
+  }
+}
+
+.ani1 {
+  width: 30rem;
+  animation: slideIn 2s ease-in-out backwards;
+}

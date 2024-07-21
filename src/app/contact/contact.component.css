@@ -1,0 +1,144 @@
+.to {
+  color: black;
+  font-family: monospace;
+  margin-right: 1rem;
+}
+
+.to:hover {
+  color: rgb(255, 230, 0);
+  font-family: monospace;
+  margin-right: 1rem;
+}
+
+.dd {
+  margin-left: 33rem;
+}
+
+.dd1 {
+  margin-right: 8rem;
+}
+
+@media (max-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: .5rem;
+    padding-left: .5rem;
+    margin-right: 0rem;
+  }
+
+  .dd {
+    margin-left: 0rem;
+  }
+
+  .dd1 {
+    margin-right: 0rem;
+  }
+}
+
+.cd {
+  background-image: url("/assets/photo/mg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.ss {
+  justify-content: center;
+  display: flex;
+  font-family: fantasy;
+  font-size: xx-large;
+  font-weight: bold;
+
+}
+
+.btn {
+  color: #000000;
+  background-color: #f2f239;
+  border-color: #ffea00;
+}
+
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-section {
+  text-align: center;
+}
+
+.contact-section h2 {
+  margin-bottom: 20px;
+}
+
+.contact-methods {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.contact-method {
+  margin: 0 15px;
+}
+
+.contact-method i {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.contact-method p {
+  font-size: 14px;
+}
+
+.contact-method p a {
+  color: #333;
+  text-decoration: none;
+}
+
+.contact-method p a:hover {
+  text-decoration: underline;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 14px;
+}
+
+.contact-form textarea {
+  resize: vertical;
+}
+
+.contact-form button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #555;
+}

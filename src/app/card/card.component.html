@@ -1,0 +1,128 @@
+<div class="cd">
+  <div style="text-align: center">
+    <a routerLink="/home"
+      ><img
+        style="width: 3rem"
+        src="assets/photo/home-icon-silhouette.png"
+        alt=""
+    /></a>
+  </div>
+  <section class="p-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="row">
+            <div class="col-md-5">
+              <div class="row">
+                <div
+                  style="
+                    box-shadow: -2px -2px 10px #efc148, 2px 2px 20px #8257f7;
+                    border-radius: 1rem;
+                    padding: 5px;
+                  "
+                >
+                  <img
+                    style="border-radius: 1rem"
+                    src="assets/photo/{{ detail.images[0] }}"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div class="row"></div>
+            </div>
+            <div class="col-md-5">
+              <div class="row">
+                <div
+                  style="
+                    box-shadow: -2px -2px 10px #efc148, 2px 2px 20px #8257f7;
+                    border-radius: 1rem;
+                    padding: 5px;
+                  "
+                >
+                  <img
+                    style="border-radius: 1rem"
+                    src="assets/photo/{{ detail.images[1] }}"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div>
+    <h1 style="text-align: center; font-family: monospace; font-weight: 600">
+      {{ detail.title }}
+    </h1>
+    <p
+      style="
+        text-align: center;
+        font-family: monospace;
+        font-weight: 600;
+        font-size: x-large;
+      "
+    >
+      {{ detail.description }}
+    </p>
+  </div>
+</div>
+
+<section style="padding: 1rem; padding-top: 4rem">
+  <h1
+    style="
+      padding-bottom: 2rem;
+      padding-top: 1rem;
+      justify-content: center;
+      font-family: fantasy;
+      display: flex;
+    "
+  >
+    <span style="color: red">Best</span> Trading
+  </h1>
+  <div class="row">
+    <div class="col" *ngFor="let item of table.slice(3, 8)">
+      <div class="productive">
+        <img
+          src="assets/photo/{{ item.images[0] }}"
+          class="card-img-top resized-image"
+          alt="..."
+        />
+        <div class="card-body">
+          <a class="nev" style="text-decoration: none; color: black"
+            ><h5
+              class="card-title"
+              style="font-size: x-large; font-weight: bold"
+            >
+              {{ item.title.slice(0, 20) }}
+            </h5></a
+          >
+          <p class="card-text">{{ item.description.slice(0, 40) }}</p>
+        </div>
+      </div>
+    </div>
+    <a
+      style="
+        display: flex;
+        justify-content: center;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        text-decoration: none;
+        color: black;
+      "
+      routerLink="/shop"
+      ><button
+        style="box-shadow: -2px -2px 10px #f3d27d, 2px 2px 20px #f75781"
+        class="btn btn-primary me-2"
+      >
+        More Product
+      </button></a
+    >
+  </div>
+</section>
